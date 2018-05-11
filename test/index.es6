@@ -1,6 +1,12 @@
 require("./sass/style.scss");
 
-import YtApiLoad from '../build/YtApiLoad.js';
+let yt_api_ready = require('../build/yt_api_load');
 
 
-let test = new YtApiLoad();
+yt_api_ready().then(
+    function () {
+        console.log('ready');
+    }
+).catch(function (error) {
+    console.log(error)
+});

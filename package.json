@@ -2,8 +2,9 @@
     "name": "yt_api_load",
     "version": "1.0.0",
     "description": "jQuery plugin",
-    "main": "build\/yt_api_load.js",
+    "main": "build/yt_api_load.js",
     "dependencies": {
+        "gsap": "^1.20.4",
         "jquery": "^3.2.1"
     },
     "devDependencies": {
@@ -22,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https:\/\/github.com\/lemehovskiy\/yt_api_load"
+        "url": "https://github.com/lemehovskiy/yt_api_load"
     },
     "author": "lemehovskiy",
     "license": "ISC"
