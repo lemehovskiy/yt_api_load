@@ -1,7 +1,7 @@
 {
     "name": "yt_api_load",
     "version": "0.1.0",
-    "description": "jQuery plugin",
+    "description": "Youtube Player API Load",
     "main": "build/yt_api_load.js",
     "dependencies": {
         "gsap": "^1.20.4",
