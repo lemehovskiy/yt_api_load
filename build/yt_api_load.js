@@ -79,7 +79,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 /*
- Version: 1.0.0
+ Version: 0.1.0
  Author: lemehovskiy
  Website: http://lemehovskiy.github.io
  Repo: https://github.com/lemehovskiy/yt_api_load
